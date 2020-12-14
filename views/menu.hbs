@@ -1,0 +1,11 @@
+<ul class="game__list">
+  {{#each items}}
+  <li>
+    <header class="game__name">{{name}}</header>
+    <img src="{{image}}" alt="{{name}}">
+    <a href="/games/{{name}}" class="link action">
+      Играть
+    </a>
+  </li>
+  {{/each}}
+</ul>

@@ -1,0 +1,17 @@
+<div class="game">
+  <div class="xmasTree">
+    <img class="xmasTree-img" src="static\img\ChristmasTree.png" alt="FurTree">
+    <img class="star" src="static\img\star.png" alt="star">
+    <img class="red-star" src="static\img\red-star.png" alt="redstar">
+    <div class="lamps">
+      {{#each count}}
+      <button class="lamp{{this}}" id="garland-btn"></button>
+      {{/each}}
+    </div> 
+  </div>
+</div>
+<div class="button-wrapper">
+  <button class="btn" onclick="restart()">Начать заново</button>
+</div>
+<script src="static\js\sequence.js"></script>
+<link rel="stylesheet" href="/static/css/sequence.css"/>

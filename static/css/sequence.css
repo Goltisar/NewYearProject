@@ -1,0 +1,141 @@
+div.game {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+  
+  .xmasTree{
+    display: inline-block;
+    position: relative;
+    top: 50px;
+    background-color: (255, 0, 0);
+    z-index: 101;
+  }
+  
+  .star{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 245px;
+    top: -40px;
+  }
+  
+  .red-star{
+    display: block;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 245px;
+    top: -40px;
+    opacity: 0;
+  }
+  
+  
+  #garland-btn{
+    background: gray;
+    position: absolute;
+    border-radius: 50%;
+    border: none !important;
+  }
+  
+  #garland-btn:focus {
+    outline: none;             
+  }
+  
+  .lamp0{
+    width: 44px;
+    height: 44px;
+    left: 203px;
+    top: 173px;
+  }
+  
+  .lamp1{
+    width: 36px;
+    height: 36px;
+    left: 317px;
+    top: 222px;
+  }
+  
+  .lamp2{
+    width: 40px;
+    height: 40px;
+    left: 385px;
+    top: 168px;
+  }
+  
+  .lamp3{
+    width: 55px;
+    height: 55px;
+    left: 110px;
+    top: 295px;
+  }
+  
+  .lamp4{
+    width: 45px;
+    height: 45px;
+    left: 200px;
+    top: 355px;
+  }
+  
+  .lamp5{
+    width: 45px;
+    height: 45px;
+    left: 288px;
+    top: 362px;
+  }
+  
+  .lamp6{
+    width: 39px;
+    height: 39px;
+    left: 380px;
+    top: 353px;
+  }
+  
+  .lamp7{
+    width: 51px;
+    height: 51px;
+    left: 422px;
+    top: 285px;
+  }
+  
+  .lamp8{
+    width: 52px;
+    height: 52px;
+    left: 69px;
+    top: 429px;
+  }
+  
+  .lamp9{
+    width: 54px;
+    height: 54px;
+    left: 156px;
+    top: 496px;
+  }
+  
+  .lamp10{
+    width: 62px;
+    height: 62px;
+    left: 275px;
+    top: 470px;
+  }
+  
+  .lamp11{
+    width: 54px;
+    height: 54px;
+    left: 422px;
+    top: 470px;
+  }
+  
+  .lamp12{
+    width: 40px;
+    height: 40px;
+    left: 525px;
+    top: 415px;
+  }
+  
+  .decoration{
+    position: absolute;
+    right: 0;
+    top:0;
+    z-index: 100;
+  }

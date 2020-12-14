@@ -1,0 +1,35 @@
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>🎉Happy New Year🎉</title>
+  <link rel="stylesheet" href="/static/css/index.css" />
+  <link rel="stylesheet" href="/static/css/decoration.css" />
+</head>
+{{> header}}
+
+<body class="layout">
+  <main>
+    {{{body}}}
+    <div id="gir" class="gir_3">
+      <div id="nums_1">1</div>
+    </div>
+
+  </main>
+  <img width="400px" class="santa" src="static\img\SantaClaus.png" alt="SantaClaus">
+  <div class="cloud">
+    <img class="cloud-img" src="static\img\cloud.png" alt="cloud">
+    <div id="timer"></div>
+  </div>
+  {{> footer}}
+  <dialog class="dialog">
+      <form method="dialog">
+        <button type="submit" class="close-dialog">x</button>
+      </form>
+      <p class="win-dialog"></p>
+    </dialog>
+</body>
+<script type="module" src="/static/js/garland.js"></script>
+<script type="module" src="/static/js/switchBtn.js"></script>
+<script type="module" src="/static/js/timer.js"></script>
+
+</html>

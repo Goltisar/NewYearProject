@@ -1,0 +1,17 @@
+<section class="memory-game">
+{{#each items}}
+  <div class="memory-card" data-framework={{imageName}}>
+    <img class="front-face" src="static/img/memory/{{imageName}}.svg" alt={{imageName}}>
+    <img class="back-face" src="static/img/memory/Reef.svg" alt="Memory Card">
+  </div>
+  <div class="memory-card" data-framework={{imageName}}>
+    <img class="front-face" src="static/img/memory/{{imageName}}.svg" alt={{imageName}}>
+    <img class="back-face" src="static/img/memory/Reef.svg" alt="Memory Card">
+  </div>
+{{/each}}
+</section>
+<div class="button-wrapper">
+  <button class="btn" onclick="restart()">Начать заново</button>
+</div>
+<script src="static/js/memory.js"></script>
+<link rel="stylesheet" href="/static/css/memory.css" />

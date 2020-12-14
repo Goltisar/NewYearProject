@@ -1,0 +1,54 @@
+#gir {
+    position:absolute;
+    top:40px;
+    background-image:url('http://lh5.googleusercontent.com/-obNunPiVVd4/VJOuk2f29_I/AAAAAAAAE3Y/SOoFIrFTTkk/s800/gerljanda1.png');
+    height:36px;
+    width:100%;
+    overflow:hidden;
+    z-index:99
+}  
+ #nums_1 {padding:100px}  
+    .gir_1 {background-position: 0 0}  
+    .gir_2 {background-position: 0 -36px}  
+    .gir_3 {background-position: 0 -72px}
+
+ #timer {
+    position: relative;
+    left: 57px;
+    bottom: 93px;
+    white-space: pre-line;
+    font-size: 19pt;
+    font-family: "kabarett";
+    text-align: center;
+}
+
+.santa {
+    position: fixed;
+    bottom: -8px;
+    left: -50px;
+}
+
+.cloud {
+    position: fixed;
+    height: 130px;
+    bottom: 145px;
+    left: 195px;
+}
+
+.cloud-img {
+    width: 340;
+}
+
+.decoration{
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 100;
+}
+
+@font-face {
+    font-family: "kabarett"; 
+    src: url("/static/fonts/kabarett-simple-thin.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+}
